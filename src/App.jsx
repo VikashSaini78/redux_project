@@ -6,6 +6,7 @@ import {BrowserRouter, Route, Routes} from "react-router-dom"
 import SingleProduct from './comp/SingleProduct'
 import Navbar from './comp/Navbar'
 import Cart from './comp/Cart'
+import Footer from './comp/Footer'
 
 function App() {
   
@@ -32,6 +33,7 @@ function App() {
           <Route path='/product/:id' element={<SingleProduct/>}/>
           <Route path='/cart' element={<Cart/>}/>
         </Routes>
+        <Footer/>
       </BrowserRouter>
      
     </>

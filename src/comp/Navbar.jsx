@@ -178,6 +178,7 @@ export default function Navbar() {
       <AppBar position="static"
       sx={{
         backgroundColor:"black"
+        
       }}
       >
         <Toolbar>
@@ -198,7 +199,7 @@ export default function Navbar() {
           >
            <img src={Logo} alt=' '
             style={{
-              width:"100px"
+              width:"80px"
             }}
            />
           </Typography>

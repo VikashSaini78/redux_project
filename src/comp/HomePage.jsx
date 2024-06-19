@@ -15,6 +15,7 @@ function Main({productData}) {
                 flexWrap:"wrap",  
                 gap:"50px",
                 minHeight: "60vh",
+               
 
             }}
             >
